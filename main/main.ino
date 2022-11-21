@@ -78,6 +78,8 @@ void setup() {
 void loop() {
 
 
+ 
+
 	//set magic number
 	magic_number = random(0, 5);
 	//switch off whole led
@@ -204,5 +206,3 @@ void read_datas_from_sensors(int distance[], long duration[]){
 
 
 }
-
-
